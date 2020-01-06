@@ -22,7 +22,7 @@
                 android:scaleType="centerCrop"/>
 
             <TextView
-                android:id="@+id/viewColors"
+                android:id="@+id/viewColor"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_alignParentRight="true"
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/viewColors"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="9dp"
+                android:layout_marginTop="100dp"
                 android:layout_marginRight="60dp"
                 android:text="//RGB" />
 
@@ -51,7 +51,7 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/baseBt"
+            android:id="@+id/bt1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -59,7 +59,7 @@
             android:background="#EBE1DD"/>
 
         <Button
-            android:id="@+id/pinkBt"
+            android:id="@+id/bt2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -67,7 +67,7 @@
             android:background="#ECCBCA"/>
 
         <Button
-            android:id="@+id/dIndigoBt"
+            android:id="@+id/bt3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -75,7 +75,7 @@
             android:background="#75839C"/>
 
         <Button
-            android:id="@+id/mdIndigoBt"
+            android:id="@+id/bt4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -83,7 +83,7 @@
             android:background="#99A9BF"/>
 
         <Button
-            android:id="@+id/lowIndigoBt"
+            android:id="@+id/bt5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -91,7 +91,7 @@
             android:background="#C3CCD5"/>
 
         <Button
-            android:id="@+id/blueBt"
+            android:id="@+id/bt6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
